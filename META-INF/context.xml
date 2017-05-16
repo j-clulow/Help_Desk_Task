@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+    
+    
+    <!-- Specifying our JDBC datasource -->
+    
+    
+    <!-- To conect form home -->
+    
+    <Resource name="HELP_DESK_DB" 
+              auth="Container"
+              type="javax.sql.DataSource" 
+              maxActive="10" 
+              maxIdle="4"
+              maxWait="10000"
+              username="c3167656" 
+              password="071083"
+              driverClassName="com.mysql.jdbc.Driver"
+              url="jdbc:mysql://127.0.0.1:30001/c3167656_db"/>
+    
+    <!-- To connect from within the Uni's LAN -->
+    
+	<!--
+	<Resource name="HELP_DESK_DB" 
+              auth="Container"
+              type="javax.sql.DataSource" 
+              maxActive="10" 
+              maxIdle="4"
+              maxWait="10000"
+              username="c3167656" 
+              password="071083"
+              driverClassName="com.mysql.jdbc.Driver"
+              url="jdbc:mysql://compseng.newcastle.edu.au/c3167656_db"
+              />
+		-->
+              
+</Context>
